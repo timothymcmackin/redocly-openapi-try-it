@@ -1,0 +1,12 @@
+import { OpenApiTryIt, Alert, ExplainStep, scrollToHeading } from '@redocly/developer-portal/ui';
+
+# Testing the openapi try it component
+
+<OpenApiTryIt
+  definitionId="catFacts"
+  operationId="getRandomFact"
+  id="step-1"
+  onResponse={({ response }) => {
+    console.log(response);
+  }}
+/>

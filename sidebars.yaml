@@ -1,4 +1,5 @@
 training:
+  - page: developer-portal/openapi-try-it.mdx
   - page: developer-portal/index.md
   - group: Training exercises
     expanded: true
